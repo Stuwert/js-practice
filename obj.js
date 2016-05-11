@@ -48,6 +48,13 @@ Object.defineProperty(newContainer, "best", {
 
 delete newContainer.best
 
+newContainer.best = 48;
+
+// value is the property value
+// writable determines whether or not it can be updated later
+// enumerable determines whether or not it can be iterated through
+// configurable determines whether or not the value can be deleted
+
 // newContainer["test"] = 35
 
 console.log(newContainer)
