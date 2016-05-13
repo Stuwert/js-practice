@@ -25,3 +25,8 @@ var basicCounter = (function(){
 
 console.log(basicCounter.incrementCounter());
 basicCounter.showCounter();
+basicCounter.showCounter = function(){
+  console.log('bing bong');
+}
+
+basicCounter.showCounter();
